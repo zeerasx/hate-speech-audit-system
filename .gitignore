@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual environment ---
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Environment / secrets ---
+.env
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+
+# --- Data ---
+data/raw/*
+!data/raw/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# --- Model checkpoints ---
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
+logs/

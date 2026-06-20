@@ -1,0 +1,7 @@
+project: 
+  name: hate-speech-audit-system
+  description: A system for auditing and analyzing hate speech in online platforms.
+  version: 0.1.0
+  seed : 42
+
+
